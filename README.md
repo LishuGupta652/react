@@ -1,5 +1,10 @@
 # react boiler plate
 
+## A branch proof app [take care of the branches]
+
+- main
+- first > here to begin with
+
 https://github.com/LishuGupta652/react
 https://react.lishu.ml/
 
