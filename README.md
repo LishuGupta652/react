@@ -1,5 +1,14 @@
 # react boiler plate
 
+## react-boilerplate
+
+[]: # Language: markdown
+[]: # Path: react-boilerplate/README.md
+
+## context api
+
+remeber : createContext() Provider Consumer
+
 ## A branch proof app [take care of the branches]
 
 - main
