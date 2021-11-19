@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 :root {
-  --theme-color: rgb(254, 178, 15);
+  --theme-color: #122f4e;
   --secondary-color: #e87c1e;
   --third-color: #ff2721;
   --primary-font-color: rgb(29, 29, 29);
@@ -49,6 +49,8 @@ html {
   font-family: Poppins;
   overflow-x: hidden;
   transition: 0.3s ease-in-out;
+  background-color: var(--theme-color);
+  color: white;
 }
 a {
   color: white;
@@ -81,4 +83,63 @@ img {
 }
 .container:hover {
   background-color: #aaa;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header .logo {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Neutral face";
+}
+
+.header ul {
+  list-style: none;
+  text-align: right;
+  margin-right: 30px;
+  display: flex;
+}
+.header ul li .link {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 15px;
+  backdrop-filter: blur(10);
+  background-color: #2c3e50;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* home */
+.conatainer-home {
+  display: flex;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+.conatainer-home h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.home-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+  background-color: yellow;
 }
