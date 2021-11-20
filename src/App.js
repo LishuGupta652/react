@@ -1,14 +1,13 @@
 import "./App.css";
-import Sidebar from "./Sidebar";
-import Chat from "./Chat";
 
 function App() {
   return (
-    <div className="app">
-      <div className="app__body">
-        <Sidebar />
-        <Chat />
-      </div>
+    <div className="App">
+      <header className="App-header">
+        <div className="container-wrapper">
+          <div className="container">Hello world</div>
+        </div>
+      </header>
     </div>
   );
 }
